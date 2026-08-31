@@ -70,5 +70,5 @@ if __name__=="__main__":
     print("Cantidad Final:",len(data["titulos"]))
     print(data)
     df=pd.DataFrame(data)
-    df.to_csv("datasets/data.csv")
+    df.to_csv("datasets/data.csv",index=False)
 
